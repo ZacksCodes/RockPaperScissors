@@ -4,7 +4,7 @@
 }
 
 html {
-	height: 99%;
+	height: 100%;
 	border: 5px solid #707070;
 }
 .wrapper {
@@ -31,7 +31,7 @@ html {
 }
 
 #Paper {
-	margin: 5em;
+	margin: 3em;
 	height: 100px;
 	width: 100px;
 	background-color: #fff;
@@ -44,7 +44,7 @@ html {
 	border-width: 3px;
 }
 #Rock {
-	margin: 5em;
+	margin: 3em;
 	height: 100px;
 	width: 100px;
 	background-color: #fff;
@@ -56,7 +56,7 @@ html {
 	border-width: 3px;
 }
 #Scissor {
-	margin: 5em;
+	margin: 3em;
 	height: 100px;
 	width: 100px;
 	background-color: #fff;
@@ -76,7 +76,40 @@ img {
 }
 
 .footer {
-	margin-top: 9%;
+	margin-top: 3%;
 	text-align: center;
 	font-family: aquatico;
+}
+
+.Scoreboard {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 14em;
+	margin: auto;
+	border: 2px solid #707070;
+}
+
+.Scoreboard h2 {
+	text-align: center;
+	border-bottom: 2px solid #707070;
+	margin: 0;
+	padding: 10px;
+}
+
+.Scoreboard table {
+	margin: 10px auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+.Scoreboard th,
+.Scoreboard td {
+	text-align: center;
+}
+
+.Scoreboard td {
+	font-size: 3 em;
+	padding: 0 20px;
+}
+
+#status {
+	text-align: center;
 }
