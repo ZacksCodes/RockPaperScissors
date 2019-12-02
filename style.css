@@ -1,0 +1,82 @@
+@font-face {
+	font-family: Aquatico;
+	src: url(fonts/Aquatico/Aquatico.otf);
+}
+
+html {
+	height: 99%;
+	border: 5px solid #707070;
+}
+.wrapper {
+	min-height: 90%;
+}
+.Header {
+	margin: 4em;
+	text-align: center;
+	font-family: aquatico;
+}
+
+.Title {
+	color: #1b998b;
+	font-size: 3em;
+}
+
+.SubTitle {
+	color: #5e5f60;
+	font-size: em;
+}
+
+.Tools {
+	text-align: center;
+}
+
+#Paper {
+	margin: 5em;
+	height: 100px;
+	width: 100px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	border: medium solid #707070;
+	transition: outline 0.6s linear;
+}
+#Paper:hover {
+	border-width: 3px;
+}
+#Rock {
+	margin: 5em;
+	height: 100px;
+	width: 100px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	border: medium solid #707070;
+}
+#Rock:hover {
+	border-width: 3px;
+}
+#Scissor {
+	margin: 5em;
+	height: 100px;
+	width: 100px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	border: medium solid #707070;
+}
+#Scissor:hover {
+	border-width: 3px;
+}
+img {
+	opacity: 80%;
+	margin-top: 12px;
+	height: 70%;
+	width: 100%;
+	object-fit: contain;
+}
+
+.footer {
+	margin-top: 9%;
+	text-align: center;
+	font-family: aquatico;
+}
